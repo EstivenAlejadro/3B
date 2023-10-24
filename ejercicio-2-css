@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    background-color: aquamarine;
+    width: 40%;
+    height: 100%;
+}
+
+.izquierda{
+    color: white;
+    background-color: rgb(3, 114, 71);
+    width: 30%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.izquierda li{
+    font-size: 12px;
+}
+
+.contizq{
+    margin: 10%;
+}
+
+#foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+#foto img{
+    width: 200px;
+    height: 200px;
+}
+
+.derecha{
+    padding: 3%;
+}
+
+.hisprof{
+    display: flex;
+}
+
+.derecha li{
+    font-size: 10px;
+}
+
+.derecha p{
+    font-size: 12px;
+}
