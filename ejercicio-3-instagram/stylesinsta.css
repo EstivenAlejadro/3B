@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    padding: 3vh;
+    background-color: rgb(226, 43, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    width: 30%;
+    border: solid 10px black;
+    background-color: black;
+    padding-left: 2vh;
+}
+
+#selector{
+    background-color: black;
+    border-color: black;
+    font-size: 20px;
+    border: 0;
+}
+
+.barsicon{
+    width: 15px;
+    height: 15px;
+    border: solid 2px white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor img{
+    padding: 3px;
+}
+
+
+#selector:hover{
+    cursor: pointer;
+}
+
+.contenedor img:hover{
+    cursor: pointer;
+}
+
+.seg{
+    text-align: center;
+
+}
+
+.seg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.seg i{
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+
+.editar p{
+    text-align: center;
+    width: 90%;
+    background-color: rgb(49, 48, 48);
+    border-radius: 6px;
+}
+
+.editar img{
+    width: 13px;
+    height: 13px;
+    background-color: aliceblue;
+}
+
+.pimagen p{
+    width: 30%;
+}
+
+.destacadas img{
+    text-align: center;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 50%;
+    margin: 10%;
+}
+
+.interactivo p{
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.interactivo img{
+    width: 30px;
+}
+
+.publicaciones td{
+    padding: 5px;
+}
+
+.publicaciones img{
+    width: 80%;
+    height: 200px;
+    border: solid 3px white;
+}
+
+hr{
+    border: solid 1px gray;
+}
+
+.piepagina{
+    text-align: center;
+}
+
+.piepagina:hover{
+    cursor: pointer;
+}
