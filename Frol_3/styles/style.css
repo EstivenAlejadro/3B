@@ -132,6 +132,7 @@
     justify-content: center;
     background-image: url(../img/fondo.png);
     background-size:cover;
+    background-position: 50%;
 }
 
 .buscarContainer{
@@ -297,6 +298,7 @@ footer{
 
     .buscarContainer{
         width: 80%;
+        flex-direction: column;
     }
 
 }
